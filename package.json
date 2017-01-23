@@ -1,0 +1,19 @@
+{
+  "name": "glob-playlist",
+  "version": "0.0.0",
+  "description": "Create a song playlist from glob pattern",
+  "main": "index.js",
+  "bin": {
+    "glop": "index.js"
+  },
+  "files": [],
+  "repository": "laggingreflex/glob-playlist",
+  "dependencies": {
+    "globby": "^6.1.0",
+    "opn": "^4.0.2",
+    "parse-gitignore": "^0.3.1",
+    "shortid": "^2.2.6",
+    "shuffle-array": "^1.0.0",
+    "yargs": "^6.6.0"
+  }
+}
