@@ -1,6 +1,6 @@
 {
   "name": "glob-playlist",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Create a song playlist from glob pattern",
   "main": "index.js",
   "bin": {
