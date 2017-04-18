@@ -4,9 +4,9 @@
   "description": "Create a song playlist from glob pattern",
   "main": "index.js",
   "bin": {
+    "glob-playlist": "index.js",
     "glop": "index.js"
   },
-  "files": [],
   "repository": "laggingreflex/glob-playlist",
   "dependencies": {
     "globby": "^6.1.0",
