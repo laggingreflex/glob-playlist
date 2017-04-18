@@ -53,8 +53,8 @@ if (args.file) {
 }
 
 if (!args._.length) {
-  printUsage();
-  exit(1);
+  console.log('Playing all files in', path.join(args.root, '*.*'));
+  args._ = ['*.*']
 }
 
 const pattern = args._.filter(p => !p.startsWith('!'));
