@@ -159,7 +159,7 @@ process.once('SIGINT', cleanup);
 process.once('uncaughtException', cleanup);
 
 function cleanup() {
-  try { fs.unlink(tmpPlaylistFile) } catch (error) {}
+  try { fs.unlinkSync(tmpPlaylistFile) } catch (error) {}
 }
 
 function printUsage() {
