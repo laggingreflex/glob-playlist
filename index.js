@@ -152,7 +152,7 @@ if (args.sort) {
 fs.writeFileSync(tmpPlaylistFile, playlist.join('\n'));
 
 console.log('Opening...');
-open(tmpPlaylistFile).then(cleanup);
+open(tmpPlaylistFile);
 
 process.once('exit', cleanup);
 process.once('SIGINT', cleanup);
